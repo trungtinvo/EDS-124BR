@@ -1,0 +1,185 @@
+
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+.top-container {
+  background-color: #CDF0EA;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+h1 {
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+    line-height: 2;
+}
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.middle-container {
+  margin: 70px 0;
+}
+
+.profile-img {
+  width: 150px;
+  height: 160px;
+}
+
+.intro {
+  text-align: justify;
+  margin: auto 50px auto 50px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.copyright {
+  color:#EAF6F6;
+  font-size: 75%;
+  padding: 20px 0;
+}
+
+.mountain{
+  width: 70%;
+  margin-bottom: -35px;
+}
+.top-cloud {
+  position: absolute;
+  right: 0px;
+  top: 300px;
+  animation: move-top-cloud 15s infinite;
+}
+@keyframes move-top-cloud {
+  from {right: 0;}
+  to {right: 300px;}
+}
+.bottom-cloud {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  animation: move-bottom-cloud 15s infinite;
+}
+
+@keyframes move-bottom-cloud {
+  from {left: 0;}
+  to {left: 300px;}
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 0;
+}
+.social-network {
+  width: 300px;
+  display: inline-block;
+}
+
+.linkedIn-img {
+  width: 2%;
+  float: left;
+  position: absolute;
+  margin-left: -5px;
+}
+
+.github-img {
+  width: 2%;
+  float: left;
+  position: absolute;
+  margin-left: -5px;
+}
+.facebook-img {
+  width: 2%;
+  float: left;
+  position: absolute;
+  margin-left: -5px;
+}
+
+.skill-row {
+  width: 65%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.coding-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.tennis-img {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  background-color: white;
+  border: dotted #B5EAEA;
+  border-width: 10px 0 0 0;
+  width: 150px;
+  margin: 100px auto;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cd;
+  background-image: -webkit-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cd, #2bc4ad);
+  text-decoration: none;
+}
